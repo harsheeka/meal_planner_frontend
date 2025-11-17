@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 
-BACKEND_URL = "http://127.0.0.1:8000/mealplan"
+BACKEND_URL = "https://meal-planner-backend-8hs4.onrender.com"
 
 st.set_page_config(page_title="Weekly Meal Planner", layout="wide")
 st.title("🍛 Weekly Meal Planner")
