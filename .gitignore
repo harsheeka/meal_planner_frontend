@@ -1,0 +1,38 @@
+# ---------------------
+# PYTHON
+# ---------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Streamlit secrets (IMPORTANT)
+.streamlit/secrets.toml
+
+# Streamlit internal files
+.streamlit/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Packages
+*.egg-info/
+.eggs/
+
+# Cached files
+.cache/
